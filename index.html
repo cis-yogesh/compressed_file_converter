@@ -1,65 +1,93 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <title>Compressed file converter</title>
-  <meta name="description" content="convert one compressed to .zip .tar .rar">
+    <title>Compressed file converter by cis-yogesh</title>
+  </head>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
+  <body>
     <header>
-      <h1 class="title">Compressed file converter</h1>
+      <div class="inner">
+        <h1>Compressed file converter</h1>
+        <h2>convert one compressed to .zip .tar .rar</h2>
+        <a href="https://github.com/cis-yogesh/compressed_file_converter" class="button"><small>View project on</small>GitHub</a>
+      </div>
     </header>
-    <div id="container">
-      <p class="tagline">convert one compressed to .zip .tar .rar</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/cis-yogesh/compressed_file_converter/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/cis-yogesh/compressed_file_converter/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/cis-yogesh/compressed_file_converter" class="code">View Compressed file converter on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
           <h1>
 <a name="compressed_file_converter" class="anchor" href="#compressed_file_converter"><span class="octicon octicon-link"></span></a>compressed_file_converter</h1>
 
-<p><strong>## Convert many compressed files to .zip .tar .rar</strong></p>
-        </article>
+<p>Deascription: </p>
+
+<h1>
+<a name="convert-many-compressed-files-to-zip-tar-rar" class="anchor" href="#convert-many-compressed-files-to-zip-tar-rar"><span class="octicon octicon-link"></span></a>Convert many compressed files to .zip .tar .rar</h1>
+
+<p><em><strong>Input File formates formats</strong></em>:
+7z (.7z), ACE (.ace), ALZIP (.alz), AR (.a), ARC (.arc), ARJ (.arj), BZIP2 (.bz2), CAB (.cab), compress (.Z), CPIO (.cpio), DEB (.deb), DMS (.dms), GZIP (.gz), LRZIP (.lrz), LZH (.lha, .lzh), LZIP (.lz), LZMA (.lzma), LZOP (.lzo), RPM (.rpm), RAR (.rar), RZIP (.rz), TAR (.tar), XZ (.xz), ZIP (.zip, .jar) and ZOO (.zoo)</p>
+
+<p><strong>Output File formates :</strong>
+zip(.zip), tar(.tar), rar(.rar)</p>
+
+<p><strong>dependencies :</strong></p>
+
+<blockquote>
+<p>sudo apt-get install unzip unrar p7zip-full lzop</p>
+</blockquote>
+
+<p>Or</p>
+
+<blockquote>
+<p>sudo apt-get install unzip unrar-free p7zip-full lzop</p>
+</blockquote>
+
+<p><strong>Python dependencies:</strong></p>
+
+<blockquote>
+<p>rarfile==2.6 (pip install rarfile==2.6)</p>
+
+<p>pyunpack==0.0.3 (pip install pyunpack==0.0.3)</p>
+
+<p>patool==0.17 (pip install <a href="http://downloads.sourceforge.net/project/patool/0.17/patool-0.17.tar.gz">http://downloads.sourceforge.net/project/patool/0.17/patool-0.17.tar.gz</a>)</p>
+
+<p>entrypoint2-0.0.6 (pip install entrypoint2==0.0.6)</p>
+
+<p>argparse-1.2.1 (pip install argparse==1.2.1)</p>
+
+<p>EasyProcess-0.1.6 (pip install EasyProcess==0.1.6)</p>
+</blockquote>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/cis-yogesh/compressed_file_converter/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/cis-yogesh/compressed_file_converter/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/cis-yogesh/compressed_file_converter"></a> is maintained by <a href="https://github.com/cis-yogesh">cis-yogesh</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
       </div>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/cis-yogesh" class="avatar"><img src="https://2.gravatar.com/avatar/a68ee06c25a1814ce09736c10ea65a07?d=https%3A%2F%2Fidenticons.github.com%2F63d91885a597f106192a990bc3210fc0.png&amp;r=x&amp;s=60" width="48" height="48"/></a> <a href="https://github.com/cis-yogesh">cis-yogesh</a> maintains <a href="https://github.com/cis-yogesh/compressed_file_converter">Compressed file converter</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/cis-yogesh/compressed_file_converter/tarball/master" class="tar">tar</a><a href="https://github.com/cis-yogesh/compressed_file_converter/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
 
   
-</body>
+  </body>
 </html>
