@@ -1,0 +1,4 @@
+rarfile==2.6
+pyunpack==0.0.3
+http://downloads.sourceforge.net/project/patool/0.17/patool-0.17.tar.gz
+entrypoint2

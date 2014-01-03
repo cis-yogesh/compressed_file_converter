@@ -1,0 +1,2 @@
+# install thease libraries for run project
+sudo apt-get install unzip unrar p7zip-full lzop
